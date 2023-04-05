@@ -1,4 +1,4 @@
-import { bookLib } from './modules/bookLib.js';
+import bookLib from './modules/bookLib.js';
 import getBook from './modules/getbook.js';
 import UI from './modules/UI.js';
 
@@ -17,7 +17,6 @@ addBtn.addEventListener('click', () => {
 window.onload = () => {
   myBookLib.bookList = JSON.parse(localStorage.getItem('bookLib')) || [];
   myBookLib.bookList.forEach((book) => {
-    // UI(book);
     Ui.generateBookHTML(book);
   });
 };
