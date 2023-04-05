@@ -19,13 +19,15 @@
       "no-unused-vars": "off",
       "new-cap": 0,
       "no-new": 0,
-      "import/no-unresolved": "off",
 
       "import/extensions": [ 1, {
         "js": "always", "json": "always",
 
       }]
+
+     
     },
+    "import/no-unresolved": "off",
 
 
   
