@@ -2,7 +2,7 @@
 
 import UI from './UI.js';
 
-export class bookLib {
+class bookLib {
     bookList = [];
 
     constructor(bookList) {
@@ -21,3 +21,5 @@ export class bookLib {
       localStorage.setItem('bookLib', JSON.stringify(this.bookList));
     }
 }
+
+export default bookLib;
