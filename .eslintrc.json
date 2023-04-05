@@ -21,10 +21,14 @@
       "no-new": 0,
 
       "import/extensions": [ 1, {
-        "js": "always", "json": "always"
+        "js": "always", "json": "always",
+
+      "import/extensions": [ "error", "ignorePackages", { "": "never" } ]
 
       }]
+      
     },
+
     "ignorePatterns": [
       "dist/",
       "build/"
