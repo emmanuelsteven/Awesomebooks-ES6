@@ -10,12 +10,19 @@
       "sourceType": "module"
     },
     "extends": ["airbnb-base"],
+
     "rules": {
       "no-shadow": "off",
       "no-param-reassign": "off",
+      "max-classes-per-file": "off",
       "eol-last": "off",
+      "no-unused-vars": "off",
+      "new-cap": 0,
+      "no-new": 0,
+
       "import/extensions": [ 1, {
         "js": "always", "json": "always"
+
       }]
     },
     "ignorePatterns": [
