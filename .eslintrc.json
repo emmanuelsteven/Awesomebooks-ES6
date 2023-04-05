@@ -19,9 +19,16 @@
       "no-unused-vars": "off",
       "new-cap": 0,
       "no-new": 0,
-      "import/extensions": [ "error", "ignorePackages", { "": "never" } ]
+      "import/no-unresolved": "off",
 
+      "import/extensions": [ 1, {
+        "js": "always", "json": "always",
+
+      }]
     },
+
+
+  
 
     "ignorePatterns": [
       "dist/",
