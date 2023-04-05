@@ -1,4 +1,4 @@
-export  class Book {
+class Book {
     id = '';
 
     title = '';
@@ -11,3 +11,4 @@ export  class Book {
       this.title = title;
     }
 }
+export default Book;
