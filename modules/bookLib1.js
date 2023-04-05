@@ -1,5 +1,3 @@
-/* eslint-disable import/prefer-default-export */
-
 import UI from './UI.js';
 
 class bookLib {
