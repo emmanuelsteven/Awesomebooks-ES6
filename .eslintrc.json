@@ -19,24 +19,9 @@
       "no-unused-vars": "off",
       "new-cap": 0,
       "no-new": 0,
-
-      "import/extensions": [ 1, {
-        "js": "always", "json": "always",
-
       "import/extensions": [ "error", "ignorePackages", { "": "never" } ]
 
-      }]
-      
     },
-
-    "settings": {
-      "import/resolver": {
-        "node": {
-          "extensions": [".js", ".jsx", ".ts", ".tsx"]
-        }
-      }
-    },
-  
 
     "ignorePatterns": [
       "dist/",
